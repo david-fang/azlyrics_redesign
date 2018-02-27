@@ -74,6 +74,11 @@ p {
     margin-right: 15px;
     outline: none;
     border: none;
+    transition-duration: 0.2s;
+}
+
+.search-button:hover {
+    opacity: 0.7;
 }
 
 #slogan {
@@ -119,10 +124,11 @@ input.middle:focus {
     margin-left: 8px;
     margin-right: 8px;
     transition-duration: 0.2s;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .social-button:hover {
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.7;
 }
 
 #album-content {
@@ -146,6 +152,7 @@ input.middle:focus {
     width: 250px;
     height: 250px;
     transition-duration: 0.2s;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .album-title {
@@ -161,5 +168,5 @@ input.middle:focus {
 
 .album-art:hover {
     cursor: pointer;
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.7;
 }
