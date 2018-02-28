@@ -11,6 +11,34 @@ p {
     margin: 0px;
 }
 
+.metadata-header {
+    position: relative;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F5F7FA;
+}
+
+.artist-profile {
+    position: absolute;
+    left: 100px;
+    top: 25%;
+    border-radius: 50%;
+    display: inline-block;
+    height: 260px;
+    width: 260px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.artist-name {
+    position: absolute;
+    left: 490px;
+    color: #7F7FD8;
+    font-weight: bold;
+    font-size: 48px;
+}
+
 .navbar {
     position: relative;
     background: #999ACB;
@@ -71,9 +99,9 @@ p {
 
 .album-info {
     position: relative;
-    left: 60%;
+    left: 400px;
     width: 100%;
-    margin-bottom: 80px;
+    margin-bottom: 104px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -128,7 +156,7 @@ p {
 }
 
 .separator {
-    height: 2px;
+    height: 1px;
     width: 100%;
     background-color: #CCCCCC;
 }
