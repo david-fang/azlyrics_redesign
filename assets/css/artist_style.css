@@ -68,3 +68,90 @@ p {
     outline: none;
     border: none;
 }
+
+.album-info {
+    position: relative;
+    left: 60%;
+    width: 100%;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+.year-container {
+    display: block;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+}
+  
+.year-text {
+    padding: 0px;
+    margin: 0px;
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 36px;
+    color: #8492A6;
+    transform-origin: center center;
+    transform: translateY(50%) rotate(270deg) translateY(50%);
+}
+  
+.content-wrapper {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-left-width: 1px;
+    border-left-color: #CCCCCC;
+    border-left-style: solid;
+    padding-left: 24px;
+}
+
+.content-section {
+    position: absolute;
+    padding-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-title {
+    display: inline-block;
+    color: #7F7FD8;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    padding-bottom: 4px;
+    border-bottom-width: 1.5px;
+    border-bottom-color: #CCCCCC;
+    border-bottom-style: solid;
+}
+
+.separator {
+    height: 2px;
+    width: 100%;
+    background-color: #CCCCCC;
+}
+
+.album-list {
+    padding-top: 0px;
+    padding-left: 64px;
+    margin: 0px;
+}
+
+.album-songs {
+    padding-left: 16px;
+}
+
+.album-art {
+    margin-left: 16px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.album-songs li {
+    font-size: 17px;
+    color: #1F2D3D;
+    padding: 4px 0px;
+}
