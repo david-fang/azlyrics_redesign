@@ -1,0 +1,169 @@
+div {
+    font-family: 'Arial', Arial, sans-serif;
+}
+
+body {
+    background-color: #FAFAFA;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+.metadata-header {
+    position: relative;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F5F7FA;
+}
+
+.navbar {
+    position: relative;
+    background: #999ACB;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.navbar {
+    position: relative;
+    background: #999ACB;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#top-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navicon {
+    width: 60px;
+    height: 60px;
+}
+
+.search-bar {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+
+.textfield {
+    font-family: 'Arial', Arial, sans-serif;
+    font-size: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 360px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+.textfield::placeholder {
+    color: #C0CCDA;
+}
+
+.search-button {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    margin-right: 15px;
+    outline: none;
+    border: none;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 64px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.album-art {
+    height: 260px;
+    width: 260px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.social-button {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    outline: none;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.song-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #7F7FD8;
+    padding-bottom: 24px;
+}
+
+.artist {
+    font-size: 30px;
+    color: #8492A6;
+    padding-bottom: 8px;
+}
+
+.featured-artists {
+    font-size: 20px;
+    color: #8492A6;
+}
+
+.content {
+    margin-left: 72px;
+}
+
+.lyrics-container {
+    border-top-width: 1px;
+    border-top-color: #CCCCCC;
+    border-top-style: solid;
+    margin-top: 40px;
+    margin-right: -80px;
+    padding-top: 40px;
+}
+
+.block-header {
+    font-size: 18px;
+    color: #8492A6;
+    margin-bottom: 8px;
+}
+
+.lyrics-list {
+    list-style-type: none;
+    margin: 0px;
+    margin-bottom: 40px;
+    padding: 0px;
+}
+
+.lyrics-list li {
+    margin-bottom: 4px;
+}
+
+
