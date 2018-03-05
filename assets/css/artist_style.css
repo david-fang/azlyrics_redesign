@@ -139,4 +139,10 @@
     font-size: 17px;
     color: #1F2D3D;
     padding: 4px 0px;
+    transition-duration: 0.2s;
+}
+
+.album-songs li:hover {
+    cursor: pointer;
+    opacity: 0.7;
 }
