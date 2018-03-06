@@ -4,6 +4,7 @@
     justify-content: center;
     flex-direction: row;
     padding-top: 64px;
+    padding-bottom: 24px;
     padding-left: 96px;
     padding-right: 96px;
 }
@@ -41,6 +42,12 @@
 .featured-artists {
     font-size: 20px;
     color: #8492A6;
+    padding-bottom: 24px;
+}
+
+.attributes {
+    font-size: 16px;
+    color: #8492A6;
 }
 
 .content {
@@ -56,21 +63,22 @@
     padding-top: 40px;
 }
 
+.lyric-block {
+    margin-bottom: 40px;
+}
+
 .block-header {
     font-size: 18px;
     color: #8492A6;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .lyrics-list {
     list-style-type: none;
-    margin: 0px;
-    margin-bottom: 40px;
+    margin: 0px;    
     padding: 0px;
 }
 
 .lyrics-list li {
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
-
-
