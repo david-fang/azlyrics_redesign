@@ -12,12 +12,8 @@
 }
 
 #hot-label {
-    color: #7F7FD8;
-}
-
-.emphasis {
     font-size: 40px;
-    font-weight: bold;
+    color: #7F7FD8;
 }
 
 input.middle:focus {

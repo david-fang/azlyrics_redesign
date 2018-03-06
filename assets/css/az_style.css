@@ -1,5 +1,6 @@
 div {
     font-family: 'Arial', Arial, sans-serif;
+    color: #1F2D3D;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
 p {
     font-family: 'Arial', Arial, sans-serif;
     margin: 0px;
+    color: #1F2D3D;
 }
 
 .navbar {
@@ -27,6 +29,12 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.left-aligned {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .navicon {
@@ -95,4 +103,54 @@ p {
 .clickable:hover {
     opacity: 0.7;
     cursor: pointer;
+}
+
+.emphasis {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #EDEDF9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 24px;   
+    padding-bottom: 16px;    
+}
+
+.footer .subtext {    
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.separator {
+    height: 1px;
+    width: 100%;
+    background-color: #CCCCCC;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.link-list {
+    font-size: 14px;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-list p {
+    color: #8492A6;
+    margin-bottom: 4px;
+}
+
+.link-list .emphasis {
+    color: #1F2D3D;
+    margin-bottom: 8px;
 }

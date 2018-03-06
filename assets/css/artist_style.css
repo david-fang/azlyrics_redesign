@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #F5F7FA;
+    background-color: #EDEDF9;
 }
 
 .sort-button-container {
@@ -93,7 +93,6 @@
 }
 
 .content-section {
-    position: absolute;
     padding-top: 72px;
     display: flex;
     flex-direction: column;
@@ -110,12 +109,6 @@
     border-bottom-width: 1.5px;
     border-bottom-color: #CCCCCC;
     border-bottom-style: solid;
-}
-
-.separator {
-    height: 1px;
-    width: 100%;
-    background-color: #CCCCCC;
 }
 
 .album-list {
