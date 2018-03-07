@@ -58,7 +58,8 @@
     position: relative;
     left: 400px;
     width: 100%;
-    margin-bottom: 104px;
+    padding-top: 56px;
+    padding-bottom: 56px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -94,6 +95,7 @@
 
 .content-section {
     padding-top: 72px;
+    padding-bottom: 72px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,9 +131,12 @@
 }
 
 .album-songs li {
+    padding: 4px 0px;
+}
+
+.album-songs li a {
     font-size: 17px;
     color: #1F2D3D;
-    padding: 4px 0px;
     transition-duration: 0.2s;
 }
 
